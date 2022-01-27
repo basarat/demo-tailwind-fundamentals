@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { Button } from '../components/button';
 import styles from './index.module.css';
 
 const Home: NextPage = () => {
@@ -11,7 +12,9 @@ const Home: NextPage = () => {
       </Head>
 
       <div className={styles.container}>
-        Demo
+        <Button>
+          Tailwind Fundamentals
+        </Button>
       </div>
     </>
   )
